@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{8314cf80-27d1-4328-822a-49cb7dbbbdbc}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{94c1ecb1-b6f3-4173-a7ee-8605f97c92f2}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Maths">
+      <UniqueIdentifier>{6eabd74d-f97e-43da-b22e-33c2eec826b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Maths\Maths Source">
+      <UniqueIdentifier>{731a4b42-1531-4a8e-828b-b7497ca6c5bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Maths\Maths Headers">
+      <UniqueIdentifier>{542de8d4-1901-4615-b908-fa96111a1ace}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GLee">
+      <UniqueIdentifier>{f6d3a0d1-efa1-4121-9546-235ad11e0cfb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="FPS_COUNTER.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scene.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TIMER.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Maths\COLOR.cpp">
+      <Filter>Maths\Maths Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Maths\MATRIX4X4.cpp">
+      <Filter>Maths\Maths Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Maths\PLANE.cpp">
+      <Filter>Maths\Maths Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Maths\VECTOR2D.cpp">
+      <Filter>Maths\Maths Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Maths\VECTOR3D.cpp">
+      <Filter>Maths\Maths Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Maths\VECTOR4D.cpp">
+      <Filter>Maths\Maths Source</Filter>
+    </ClCompile>
+    <ClCompile Include="GLee\GLee.c">
+      <Filter>GLee</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="FPS_COUNTER.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="scene.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TIMER.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Maths\Maths.h">
+      <Filter>Maths</Filter>
+    </ClInclude>
+    <ClInclude Include="Maths\COLOR.h">
+      <Filter>Maths\Maths Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Maths\MATRIX4X4.h">
+      <Filter>Maths\Maths Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Maths\PLANE.h">
+      <Filter>Maths\Maths Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Maths\VECTOR2D.h">
+      <Filter>Maths\Maths Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Maths\VECTOR3D.h">
+      <Filter>Maths\Maths Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Maths\VECTOR4D.h">
+      <Filter>Maths\Maths Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="GLee\GLee.h">
+      <Filter>GLee</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
